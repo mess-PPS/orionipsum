@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Orion Ipsum</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Due diligence técnica de villas y residencias de alto nivel en la Costa del Sol. Ingenieros industriales colegiados.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;600&family=Manrope:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script>document.documentElement.classList.add('js');</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ CABECERA ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="Orion Ipsum, inicio">
+      <svg class="emblem" viewBox="0 0 100 100" aria-hidden="true">
+        <circle class="em-ring" cx="50" cy="50" r="43"/>
+        <path class="em-arc" d="M44.96 21.44 A29 29 0 1 1 29.5 29.5"/>
+        <g class="em-orbit"><circle class="em-star" cx="36.4" cy="24.4" r="6.2"/></g>
+      </svg>
+      <span class="wordmark"><span class="wm-orion">ORION</span><span class="wm-ipsum">IPSUM</span></span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#servicios" data-en="Services">Servicios</a>
+      <a href="#instrumental" data-en="Instruments">Instrumental</a>
+      <a href="#proceso" data-en="How we work">Cómo trabajamos</a>
+      <a href="#informe" data-en="The report">El informe</a>
+      <a href="#experiencia" data-en="Experience">Experiencia</a>
+      <a href="#contacto" data-en="Contact">Contacto</a>
+    </nav>
+    <button class="lang" id="lang" type="button" aria-label="Cambiar idioma">
+      <span data-l="es">ES</span><span data-l="en">EN</span>
+    </button>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<nav class="menu" id="menu" aria-label="Menú" hidden>
+  <a href="#servicios" data-en="Services">Servicios</a>
+  <a href="#instrumental" data-en="Instruments">Instrumental</a>
+  <a href="#proceso" data-en="How we work">Cómo trabajamos</a>
+  <a href="#informe" data-en="The report">El informe</a>
+  <a href="#experiencia" data-en="Experience">Experiencia</a>
+  <a href="#contacto" data-en="Contact">Contacto</a>
+</nav>
+
+<main>
+
+<!-- ============ HERO: cielo con la constelación de Orión ============ -->
+<section class="hero band-dark">
+  <canvas id="sky" aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <h1 data-en="We see what a viewing doesn’t show.">Vemos lo que una visita comercial no enseña.</h1>
+    <p class="lead" data-en="Technical due diligence reports for villas and prime residences on the Costa del Sol, signed by chartered industrial engineers.">Informes de due diligence técnica para villas y residencias de alto nivel en la Costa del Sol, firmados por ingenieros industriales colegiados.</p>
+    <div class="actions">
+      <a class="btn btn-solid" href="#contacto" data-en="Request a report">Solicitar un informe</a>
+      <a class="btn btn-ghost" href="#proceso" data-en="How we work">Cómo trabajamos</a>
+    </div>
+  </div>
+  <p class="scroll-hint" aria-hidden="true" data-en="Scroll">Desplácese</p>
+</section>
+
+<!-- ============ ESCENA: de la constelación al plano (sticky + scroll) ============ -->
+<section class="morph band-dark" id="morph">
+  <div class="morph-sticky">
+    <canvas id="blueprint" aria-hidden="true"></canvas>
+    <div class="wrap morph-captions">
+      <div class="cap is-on" data-step="0">
+        <h2 data-en="A villa is a system.">Una villa es un sistema.</h2>
+        <p data-en="We read the whole property as one: architecture, envelope, building services and grounds.">Analizamos la vivienda como un conjunto: arquitectura, envolvente, instalaciones y exteriores.</p>
+      </div>
+      <div class="cap" data-step="1">
+        <h2 data-en="Every element, measured.">Cada elemento, medido.</h2>
+        <p data-en="Functional and instrument checks in every room and every system.">Comprobaciones funcionales e instrumentales en cada estancia y en cada instalación.</p>
+      </div>
+      <div class="cap" data-step="2">
+        <h2 data-en="Every issue, located and costed.">Cada incidencia, localizada y valorada.</h2>
+        <p data-en="With photographs, analysis, a proposed remedy and an indicative repair cost.">Con fotografía, análisis, actuación propuesta y coste orientativo de reparación.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS (fondo claro) ============ -->
+<section class="band-light band-alt" id="servicios">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 class="sec-title" data-en="What we do">Qué hacemos</h2>
+      <p class="sec-lead" data-en="See, measure and document: the same technical rigour in every assignment.">Ver, medir y documentar: el mismo rigor técnico en cada encargo.</p>
+    </div>
+    <div class="svc-grid">
+      <article class="svc">
+        <svg class="svc-art" viewBox="0 0 320 220" role="img" aria-label="Alzado de una villa con una lupa que descubre una fisura">
+          <path class="ln" d="M16 190 H304"/>
+          <path class="ln" d="M44 190 V122 H236 V190"/>
+          <path class="ln" d="M84 122 V84 H268 V122"/>
+          <path class="ln" d="M74 80 H278"/>
+          <path class="ln" d="M112 94 H220 V112 H112 Z M148 94 V112 M184 94 V112"/>
+          <path class="ln" d="M62 190 V140 H128 V190 M95 140 V190"/>
+          <circle class="ln" cx="196" cy="152" r="32"/>
+          <path class="ln ln-w" d="M219 175 L250 206"/>
+          <path class="ln ln-a" d="M178 138 L186 147 L182 155 L195 162 L191 170 L201 176"/>
+        </svg>
+        <h3 data-en="Pre-purchase technical due diligence">Due diligence de compraventa</h3>
+        <p data-en="A full inspection before signing, with every issue located, graded and costed.">Inspección completa antes de firmar, con cada incidencia localizada, clasificada y valorada.</p>
+        <ul class="svc-inc">
+          <li data-en="Hidden defects and pathologies">Defectos ocultos y patologías</li>
+          <li data-en="Compliance with CTE, REBT and RITE">Conformidad con CTE, REBT y RITE</li>
+          <li data-en="Repair costs anticipated">Costes de reparación anticipados</li>
+        </ul>
+      </article>
+      <article class="svc">
+        <svg class="svc-art" viewBox="0 0 320 220" role="img" aria-label="Vivienda nueva, llave y lista de comprobación">
+          <path class="ln" d="M16 190 H180"/>
+          <path class="ln" d="M36 190 V118 L98 78 L160 118 V190"/>
+          <path class="ln" d="M84 190 V150 H112 V190"/>
+          <path class="ln" d="M52 130 H76 V150 H52 Z M122 130 H146 V150 H122 Z"/>
+          <rect class="ln" x="194" y="58" width="96" height="134" rx="6"/>
+          <path class="ln" d="M224 58 V50 H260 V58"/>
+          <path class="ln" d="M228 94 H276 M228 124 H276 M228 154 H276"/>
+          <path class="ln ln-a" d="M206 92 L212 98 L221 86 M206 122 L212 128 L221 116"/>
+          <path class="ln" d="M206 148 h12 v12 h-12 Z"/>
+          <circle class="ln" cx="54" cy="44" r="12"/>
+          <path class="ln" d="M66 44 H112 M100 44 V54 M108 44 V52"/>
+        </svg>
+        <h3 data-en="New-build handover inspection">Entrega de obra nueva</h3>
+        <p data-en="Finishes and services checked before taking the keys, with a snagging list for the contractor.">Revisión de acabados e instalaciones antes de recibir las llaves, con listado de repasos para la constructora.</p>
+        <ul class="svc-inc">
+          <li data-en="Review of finishes and systems">Revisión de acabados e instalaciones</li>
+          <li data-en="Snagging list with photos">Listado de repasos con foto</li>
+          <li data-en="Follow-up visit">Visita de verificación</li>
+        </ul>
+      </article>
+      <article class="svc">
+        <svg class="svc-art" viewBox="0 0 320 220" role="img" aria-label="Grúa y edificio en construcción">
+          <path class="ln" d="M16 190 H304"/>
+          <path class="ln" d="M70 190 V40 M82 190 V40"/>
+          <path class="ln" d="M70 62 L82 50 M70 86 L82 74 M70 110 L82 98 M70 134 L82 122 M70 158 L82 146 M70 182 L82 170"/>
+          <path class="ln" d="M36 40 H262 M76 40 V20 L262 40 M76 20 L36 40"/>
+          <path class="ln" d="M214 40 V96 M207 96 H221"/>
+          <rect class="ln ln-a" x="200" y="100" width="28" height="18"/>
+          <path class="ln" d="M130 190 V128 H286 V190 M130 159 H286 M182 128 V190 M234 128 V190"/>
+          <path class="ln" d="M126 128 V190 M290 128 V190 M126 143 H290 M126 174 H290"/>
+        </svg>
+        <h3 data-en="Construction project management">Gestión técnica de obra</h3>
+        <p data-en="Supervision of villa renovations: quality, schedule and coordination with every party.">Supervisión de reformas y rehabilitaciones de villas: calidad, plazos y coordinación con todos los agentes.</p>
+        <ul class="svc-inc">
+          <li data-en="Continuous site supervision">Supervisión continua de obra</li>
+          <li data-en="Quality and schedule control">Control de calidad y plazos</li>
+          <li data-en="Periodic reports with evidence">Informes periódicos con evidencias</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EL MOMENTO JUSTO (oscuro) ============ -->
+<section class="band-dark band-pad" id="momento">
+  <div class="wrap moment moment-solo">
+    <h2 class="sec-title wide reveal" data-en="The right moment: before signing">El momento justo: antes de firmar</h2>
+    <ol class="timeline">
+        <li class="reveal"><span class="tl-dot"></span><strong data-en="Sales viewing">Visita comercial</strong><span data-en="Not enough time">Tiempo insuficiente</span></li>
+        <li class="reveal is-us" style="--d:.2s"><span class="tl-dot"></span><strong data-en="Technical due diligence">Due diligence técnica</strong><span data-en="Where we come in">Aquí entramos</span></li>
+        <li class="reveal" style="--d:.4s"><span class="tl-dot"></span><strong data-en="Negotiation">Negociación</strong><span data-en="With data and costs">Con datos y costes</span></li>
+        <li class="reveal" style="--d:.6s"><span class="tl-dot"></span><strong data-en="Signing">Firma</strong><span data-en="No surprises">Sin sorpresas</span></li>
+      </ol>
+      <p class="moment-foot reveal" data-en="Qualified technical support to negotiate corrections before the contract is signed.">Soporte técnico cualificado para negociar correcciones antes de firmar el contrato.</p>
+  </div>
+</section>
+
+<!-- ============ INSTRUMENTAL: lente termográfica ============ -->
+<section class="band-light band-alt" id="instrumental">
+  <div class="wrap thermo-grid">
+    <div class="thermo-copy">
+      <h2 class="sec-title" data-en="What can’t be seen gets measured.">Lo que no se ve, se mide.</h2>
+      <p data-en="To the eye, this wall looks sound. Move the lens across it: the thermal camera picks up temperature differences that point to damp, leaks or thermal bridges. There are four to find.">A simple vista, esta pared parece en buen estado. Mueva la lente sobre ella: la cámara termográfica detecta diferencias de temperatura que delatan humedades, fugas o puentes térmicos. Hay cuatro por encontrar.</p>
+      <ul class="instruments">
+        <li><strong data-en="Thermal imaging camera">Cámara termográfica</strong><span data-en="Damp, leaks and thermal bridges">Humedades, fugas y puentes térmicos</span></li>
+        <li><strong data-en="Drone">Dron</strong><span data-en="Roofs, façades and grounds">Cubiertas, fachadas y exteriores</span></li>
+        <li><strong data-en="Moisture meter">Medidor de humedad</strong><span data-en="Damp in walls and slabs">Humedad en paramentos y soleras</span></li>
+        <li><strong data-en="Crack gauge">Fisurómetro</strong><span data-en="Width and progression of cracks">Ancho y evolución de fisuras</span></li>
+        <li><strong data-en="Pressure gauge">Manómetro</strong><span data-en="Water supply pressure">Presión de la red de agua</span></li>
+        <li><strong data-en="Electrical installation tester">Comprobador de instalaciones eléctricas</strong><span data-en="Boards, protections and circuits">Cuadros, protecciones y circuitos</span></li>
+      </ul>
+      <p class="inst-foot" data-en="Non-destructive inspection with instrument support and photographic record.">Inspección no destructiva con apoyo instrumental y registro fotográfico.</p>
+    </div>
+    <figure class="thermo">
+      <canvas id="thermo" role="img" aria-label="Pared con una lente termográfica que revela una zona fría por humedad junto al rodapié"></canvas>
+      <figcaption>
+        <span class="readout" id="readout">20,1 °C</span>
+        <span class="readout-sub" id="readout-sub">ΔT −2,4 °C</span>
+        <span class="sim" id="thermo-count">Detectadas 0 de 4</span>
+        <span class="thermo-label" id="thermo-label">Sin anomalías bajo la lente</span>
+        <span class="sim sim-note" data-en="Illustrative simulation">Simulación ilustrativa</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ DRON: vuelo sobre la cubierta (sticky + scroll) ============ -->
+<section class="drone band-dark" id="dron">
+  <div class="drone-sticky">
+    <canvas id="drone" role="img" aria-label="Vista aérea de una villa: un dron recorre la cubierta en pasadas paralelas y marca los hallazgos"></canvas>
+    <div class="wrap drone-copy">
+      <div class="drone-text">
+        <h2 data-en="Roofs, seen from above.">Cubiertas, vistas desde arriba.</h2>
+        <p data-en="The drone flies over the roof in parallel passes and records what can’t be seen from the ground: drains, waterproofing, tiles and skylights.">El dron recorre la cubierta en pasadas paralelas y registra lo que no se ve desde el suelo: sumideros, impermeabilización, tejas y lucernarios.</p>
+        <p class="drone-note" data-en="No scaffolding or roof access needed. Also for façades, courtyards and grounds.">Sin andamios ni acceso a la cubierta. También en fachadas, patios y exteriores.</p>
+        <ul class="drone-finds" id="drone-finds">
+          <li data-en="Blocked roof drain">Sumidero obstruido</li>
+          <li data-en="Ponding water">Encharcamiento</li>
+          <li data-en="Failed skylight seal">Sellado del lucernario deteriorado</li>
+          <li data-en="Slipped roof tiles">Tejas desplazadas</li>
+        </ul>
+        <button class="btn btn-ghost drone-replay" id="drone-replay" type="button" hidden data-en="Fly the drone again">Volver a volar el dron</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CÓMO TRABAJAMOS (proceso + qué revisamos + qué se entrega) ============ -->
+<section class="band-light" id="proceso">
+  <div class="wrap">
+    <h2 class="sec-title" data-en="How we work">Cómo trabajamos</h2>
+    <ol class="steps">
+      <li><h3 data-en="Brief and documents">Encargo y documentación</h3><p data-en="We gather the available drawings, certificates and manuals and agree the scope.">Recopilamos planos, certificados y manuales disponibles y fijamos el alcance.</p></li>
+      <li><h3 data-en="On-site inspection">Visita de inspección</h3><p data-en="A full walk-through of the property with functional tests and measurements.">Recorrido completo de la vivienda con pruebas funcionales y mediciones.</p></li>
+      <li><h3 data-en="Technical analysis">Análisis técnico</h3><p data-en="Each observation is checked against the documentation and the applicable regulations.">Cada observación se contrasta con la documentación y la normativa aplicable.</p></li>
+      <li><h3 data-en="Report">Informe</h3><p data-en="Executive summary, room-by-room and system-by-system analysis, and cost estimate.">Resumen ejecutivo, análisis por estancias e instalaciones y valoración económica.</p></li>
+      <li><h3 data-en="Follow-up">Acompañamiento</h3><p data-en="We answer questions and support negotiations before signing.">Resolvemos dudas y apoyamos la negociación previa a la firma.</p></li>
+    </ol>
+    <div class="how-more">
+      <div class="how-review">
+        <h3 class="reveal" data-en="What we check on site">Qué revisamos en la visita</h3>
+        <p class="how-lead reveal" data-en="Eight families of systems, room by room. Non-destructive inspection: no trial pits or dismantling unless expressly agreed.">Ocho familias de instalaciones, estancia por estancia. Inspección no destructiva: sin catas ni desmontajes, salvo indicación expresa.</p>
+        <ul class="review">
+          <li class="reveal" style="--d:0.0s"><strong data-en="HVAC and ventilation">Climatización y ventilación</strong><span data-en="Heat pump, underfloor heating and air quality">Aerotermia, suelo radiante y calidad del aire</span></li>
+          <li class="reveal" style="--d:0.08s"><strong data-en="Plumbing and hot water">Fontanería y ACS</strong><span data-en="Pressure, leak-tightness, valves and hot water">Presión, estanqueidad, válvulas y ACS</span></li>
+          <li class="reveal" style="--d:0.0s"><strong data-en="Electrical and lighting">Electricidad e iluminación</strong><span data-en="Boards, protections, circuits and lighting">Cuadros, protecciones, circuitos y alumbrado</span></li>
+          <li class="reveal" style="--d:0.08s"><strong data-en="Home automation">Domótica e integración</strong><span data-en="KNX, scenes, blinds and access">KNX, escenas, persianas y accesos</span></li>
+          <li class="reveal" style="--d:0.0s"><strong data-en="Telecoms and data">Telecomunicaciones y datos</strong><span data-en="Cabling, access points and future expansion">Cableado, registros y ampliación futura</span></li>
+          <li class="reveal" style="--d:0.08s"><strong data-en="Security and access">Seguridad y accesos</strong><span data-en="Alarm, video entry, garage and CCTV">Alarma, videoportero, garaje y CCTV</span></li>
+          <li class="reveal" style="--d:0.0s"><strong data-en="Structure and load-bearing system">Estructura y sistema portante</strong><span data-en="Cracks, deformation and buried elements">Fisuras, deformaciones y elementos enterrados</span></li>
+          <li class="reveal" style="--d:0.08s"><strong data-en="Other systems and grounds">Otras instalaciones y exteriores</strong><span data-en="Pool, irrigation, outdoor lighting and EV charging">Piscina, riego, luz exterior y recarga VE</span></li>
+        </ul>
+      </div>
+      <div class="how-recv">
+        <h3 class="reveal" data-en="What the client receives">Qué recibe el cliente</h3>
+        <ul class="recv">
+          <li class="reveal" style="--d:0.0s" data-en="Independent, signed technical report">Informe técnico independiente, firmado</li>
+          <li class="reveal" style="--d:0.08s" data-en="Executive summary up front">Resumen ejecutivo al inicio</li>
+          <li class="reveal" style="--d:0.16s" data-en="Annotated photo survey">Reportaje fotográfico comentado</li>
+          <li class="reveal" style="--d:0.24s" data-en="Chaptered PDF with a clickable index">PDF por capítulos con índice navegable</li>
+          <li class="reveal" style="--d:0.32s" data-en="Spanish, English and other languages">Español, inglés y otros idiomas</li>
+          <li class="reveal" style="--d:0.4s" data-en="Technical follow-up afterwards">Acompañamiento técnico posterior</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ANATOMÍA DE UNA INCIDENCIA ============ -->
+<section class="band-light band-alt" id="informe">
+  <div class="wrap">
+    <h2 class="sec-title" data-en="How an issue reads in our reports">Así se documenta una incidencia</h2>
+    <div class="sheet-wrap">
+      <article class="sheet" aria-label="Ejemplo de ficha de incidencia">
+        <header class="sheet-head" id="sh-loc"><span class="sh-badge" aria-hidden="true">1</span>
+          <span class="sheet-ref">6.3.4</span>
+          <div>
+            <h3 data-en="Crack in plasterboard ceiling next to linear diffuser">Fisura en falso techo junto a difusor lineal</h3>
+            <p data-en="Living room, ground floor">Salón, planta baja</p>
+          </div>
+          <span class="sev sev-mid" data-en="Relevant">Relevante</span>
+        </header>
+        <figure class="sheet-photo" id="sh-evid"><span class="sh-badge" aria-hidden="true">2</span>
+          <canvas id="crack" tabindex="0" role="img" aria-label="Fisura en un falso techo junto a un difusor lineal, con una tarjeta fisurométrica que se puede arrastrar para medir su ancho"></canvas>
+          <figcaption>
+            <span class="readout" id="crack-w">0,60 mm</span>
+            <span class="crack-class" id="crack-class">Fisura (0,2–1 mm)</span>
+            <span class="sim" data-en="Drag the crack-width gauge along the crack">Arrastre el fisurómetro a lo largo de la fisura</span>
+          </figcaption>
+        </figure>
+        <dl class="sheet-body">
+          <dt data-en="Analysis">Análisis</dt>
+          <dd data-en="Crack running from the end corner of the diffuser slot, consistent with a lack of reinforcement at the opening. No signs of active movement.">Fisura desarrollada desde la esquina terminal de la ranura del difusor, compatible con falta de refuerzo en el hueco. Sin indicios de movimiento activo.</dd>
+          <dt data-en="Proposed remedy">Actuación propuesta</dt>
+          <dd data-en="Open and clean the crack, reinforce with mesh, fill and repaint the whole ceiling panel.">Apertura y saneado de la fisura, refuerzo con malla, emplastecido y pintura del paño completo.</dd>
+        </dl>
+        <div class="sheet-cost-wrap" id="sh-cost"><span class="sh-badge" aria-hidden="true">3</span><table class="sheet-cost">
+          <thead><tr><th data-en="Item">Partida</th><th data-en="Qty">Cant.</th><th data-en="Unit (€)">Precio (€)</th><th data-en="Amount (€)">Importe (€)</th></tr></thead>
+          <tbody>
+            <tr><td data-en="Opening and cleaning the crack">Apertura y saneado de fisura</td><td>1 ud</td><td>90,00</td><td>90,00</td></tr>
+            <tr><td data-en="Mesh reinforcement and filler">Refuerzo con malla y emplastecido</td><td>1 ud</td><td>140,00</td><td>140,00</td></tr>
+            <tr><td data-en="Repainting the ceiling panel">Pintura del paño de techo</td><td>18 m²</td><td>9,50</td><td>171,00</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td colspan="3" data-en="Total excl. VAT">Total sin IVA</td><td>401,00</td></tr>
+            <tr><td colspan="3" data-en="VAT (21%)">IVA (21 %)</td><td>84,21</td></tr>
+            <tr class="grand"><td colspan="3" data-en="Total incl. VAT">Total con IVA</td><td>485,21</td></tr>
+          </tfoot>
+        </table></div>
+        <p class="sheet-note" data-en="Illustrative example. Figures are not from a real report.">Ejemplo ilustrativo. Las cifras no corresponden a un informe real.</p>
+      </article>
+      <ul class="sheet-notes">
+        <li data-target="#sh-loc"><span class="note-n">1</span><div><strong data-en="Located and graded">Localizada y clasificada</strong><span data-en="Room, floor and point on the plan, graded as critical, relevant or minor.">Estancia, planta y punto del plano, con su clasificación: crítica, relevante o menor.</span></div></li>
+        <li data-target="#sh-evid"><span class="note-n">2</span><div><strong data-en="Measured evidence">Evidencia medida</strong><span data-en="Annotated photograph and instrument readings, such as crack width.">Fotografía comentada y lecturas de instrumental, como el ancho de una fisura.</span></div></li>
+        <li data-target="#sh-cost"><span class="note-n">3</span><div><strong data-en="Costed">Valorada</strong><span data-en="Indicative cost by line item, useful for negotiating before signing.">Coste orientativo por partidas, útil para negociar antes de la firma.</span></div></li>
+      </ul>
+    </div>
+    <div class="grading">
+      <h3 class="grading-title reveal" data-en="Every issue, in proportion">Cada incidencia, en su justa medida</h3>
+      <div class="grades">
+        <article class="grade g-crit reveal"><span class="g-tag" data-en="Critical">Crítica</span><p data-en="Safety or use. Resolve before signing.">Seguridad o uso. Resolver antes de firmar.</p><small data-en="e.g. active structural cracks in slabs or walls">Ej.: fisuras estructurales activas en forjados o muros</small></article>
+        <article class="grade g-mid reveal" style="--d:.15s"><span class="g-tag" data-en="Relevant">Relevante</span><p data-en="A specific repair, or investigate the cause.">Reparación concreta o investigar su origen.</p><small data-en="e.g. localised damp on a wall">Ej.: humedad localizada en un paramento</small></article>
+        <article class="grade g-min reveal" style="--d:.3s"><span class="g-tag" data-en="Minor">Menor</span><p data-en="Finish or routine maintenance.">Acabado o mantenimiento ordinario.</p><small data-en="e.g. a loose door stop or skirting board">Ej.: tope de puerta o rodapié despegado</small></article>
+      </div>
+      <p class="grading-foot reveal" data-en="Issues are identified and graded by their functional and structural impact.">Identificación y clasificación de incidencias según su impacto funcional y constructivo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INDEPENDENCIA (oscuro) ============ -->
+<section class="band-dark band-pad indep" id="independencia">
+  <div class="wrap">
+    <blockquote class="quote reveal"><p data-en="A technical report in time completely changes the real perception of a purchase.">Un informe técnico a tiempo cambia por completo la percepción real de una compra.</p></blockquote>
+    <h2 class="indep-title reveal" data-en="An independent opinion, with no conflict of interest.">Un dictamen independiente, sin conflicto de interés.</h2>
+    <ul class="commit">
+      <li class="reveal"><span class="ck" aria-hidden="true"></span><h3 data-en="Impartial">Imparcial</h3><p data-en="No conflict of interest with any of the parties involved.">Sin conflicto de intereses con ninguna de las partes implicadas.</p></li>
+      <li class="reveal" style="--d:.12s"><span class="ck" aria-hidden="true"></span><h3 data-en="Verifiable criteria">Criterios verificables</h3><p data-en="No alarmism, and with the limits of the scope stated.">Sin alarmismo y con límites de alcance expresos.</p></li>
+      <li class="reveal" style="--d:.24s"><span class="ck" aria-hidden="true"></span><h3 data-en="Traceable documentation">Documentación trazable</h3><p data-en="Valid for future claims or valuations.">Válida para futuras reclamaciones o valoraciones.</p></li>
+      <li class="reveal" style="--d:.36s"><span class="ck" aria-hidden="true"></span><h3 data-en="Confidentiality">Confidencialidad</h3><p data-en="With objectivity and technical precision, the basis of our work.">Con la objetividad y la precisión técnica, base de nuestro trabajo.</p></li>
+    </ul>
+    <div class="forwhom reveal">
+      <h3 data-en="Who we work for">Para quién trabajamos</h3>
+      <ul class="badges">
+        <li data-en="Buyers">Compradores</li>
+        <li data-en="Investors">Inversores</li>
+        <li data-en="Law firms">Despachos jurídicos</li>
+        <li data-en="Real estate agencies">Agencias inmobiliarias</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCIA ============ -->
+<section class="band-light" id="experiencia">
+  <div class="wrap">
+    <h2 class="sec-title" data-en="Experience">Experiencia</h2>
+    <div class="exp-grid">
+      <div class="figures">
+        <div><span class="fig-n"><span data-count="60" data-suffix="+">60+</span></span><span class="fig-l" data-en="technical reports on villas, penthouses, duplexes and apartments">informes técnicos en villas, áticos, dúplex y apartamentos</span></div>
+                <div><span class="fig-n">2021</span><span class="fig-l" data-en="founded in Córdoba, working across the Costa del Sol">fundada en Córdoba, con actividad en toda la Costa del Sol</span></div>
+        <div><span class="fig-n fig-n-sm">COIIAOC</span><span class="fig-l" data-en="chartered industrial engineers">ingenieros industriales colegiados</span></div>
+      </div>
+      <figure class="map">
+        <svg class="map-art" viewBox="0 0 640 360" role="img" aria-label="Mapa esquemático de la Costa del Sol con las zonas donde ha trabajado Orion Ipsum: Benahavís, El Herrojo, San Pedro Alcántara, Río Verde, Puente Romano y Marbella">
+          <path class="sea" d="M20 337 L83 316 L117 296 L153 282 L191 269 L216 254 L238 246 L260 239 L282 227 L304 231 L336 237 L374 239 L412 231 L446 201 L462 180 L491 159 L525 129 L544 103 L576 48 L620 40 L620 360 L20 360 Z"/>
+          <path class="ln coast" d="M20 337 L83 316 L117 296 L153 282 L191 269 L216 254 L238 246 L260 239 L282 227 L304 231 L336 237 L374 239 L412 231 L446 201 L462 180 L491 159 L525 129 L544 103 L576 48 L620 40"/>
+          <path class="relief" d="M60 250 C120 220 150 170 210 160 S320 150 380 170 S470 120 520 70"/>
+          <path class="relief" d="M90 210 C150 160 200 120 260 120 S360 110 420 100"/>
+          <g class="ref"><circle cx="117" cy="290" r="3"/><circle cx="446" cy="197" r="3"/><circle cx="576" cy="44" r="3"/></g>
+          <g class="ref-t"><text x="104" y="312" text-anchor="end">Estepona</text><text x="458" y="192">Fuengirola</text><text x="566" y="38" text-anchor="end">Málaga</text></g>
+          <g class="zone"><circle cx="181" cy="211" r="6"/><circle cx="168" cy="201" r="5"/><circle cx="216" cy="245" r="6"/><circle cx="251" cy="234" r="5"/><circle cx="266" cy="228" r="5"/><circle cx="282" cy="221" r="7"/></g>
+          <g class="zone-t"><text x="150" y="186">Benahavís</text><text x="206" y="272">San Pedro</text><text x="270" y="204">Marbella</text></g>
+          <text class="sea-t" x="250" y="320" data-en="Mediterranean Sea">Mar Mediterráneo</text>
+          <g class="north"><path d="M600 300 L608 322 L600 316 L592 322 Z"/><text x="600" y="292" text-anchor="middle">N</text></g>
+        </svg>
+        <figcaption data-en="Areas with technical reports: Marbella, Puente Romano, Río Verde, San Pedro, Benahavís and El Herrojo. Also project management in Ibiza. Reports since 2022; client names are never disclosed.">Zonas con informes técnicos: Marbella, Puente Romano, Río Verde, San Pedro, Benahavís y El Herrojo. Además, dirección de proyectos en Ibiza. Informes desde 2022; sin nombres de clientes.</figcaption>
+      </figure>
+    </div>
+    <div class="rehab">
+      <h3 class="reveal" data-en="Renovations we have managed">Rehabilitaciones que hemos dirigido</h3>
+      <div class="rehab-grid">
+        <ul class="bars">
+          <li class="reveal" style="--w:100%"><span class="bar-l"><span data-en="Beach club, Marbella">Club de playa, Marbella</span><em data-en="ongoing">en curso</em></span><span class="bar"><i></i></span><b data-count="7" data-suffix=" M€" data-dur="3000">7 M€</b></li>
+          <li class="reveal" style="--w:86%;--d:.15s"><span class="bar-l"><span data-en="Villa, Ibiza">Villa, Ibiza</span></span><span class="bar"><i></i></span><b data-count="6" data-suffix=" M€" data-dur="3000">6 M€</b></li>
+          <li class="reveal" style="--w:43%;--d:.3s"><span class="bar-l"><span data-en="Villa, Marbella">Villa, Marbella</span></span><span class="bar"><i></i></span><b data-count="3" data-suffix=" M€" data-dur="3000">3 M€</b></li>
+          <li class="reveal" style="--w:29%;--d:.45s"><span class="bar-l"><span data-en="Car park, Marbella">Parking, Marbella</span></span><span class="bar"><i></i></span><b data-count="2" data-suffix=" M€" data-dur="3000">2 M€</b></li>
+        </ul>
+        <div class="rehab-copy reveal" style="--d:.2s">
+          <p data-en="As Project Manager, directly responsible for the planning, coordination and execution of the works.">Como Project Manager, con responsabilidad directa sobre la planificación, coordinación y desarrollo de los trabajos.</p>
+          <ul class="badges">
+            <li data-en="Continuous site supervision">Supervisión continua de obra</li>
+            <li data-en="Finish quality control">Control de calidad de acabados</li>
+            <li data-en="Schedule and coordination of all parties">Plazos y coordinación de agentes</li>
+          </ul>
+          <small data-en="Estimated budgets.">Presupuestos estimados.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="band-dark contact" id="contacto">
+  <canvas id="sky2" aria-hidden="true"></canvas>
+  <div class="wrap contact-inner">
+    <h2 data-en="Let’s talk about your next transaction.">Hablemos de su próxima operación.</h2>
+    <p class="team-line" data-en="Experience in building services, construction and technical regulation applied to the luxury property market.">Experiencia en instalaciones, edificación y normativa técnica aplicada al sector inmobiliario de lujo.</p>
+    <div class="people">
+      <div class="person">
+        <h3>Ramón Medio Toral</h3>
+        <p data-en="General Manager. Industrial Engineer">Director gerente. Ingeniero industrial</p>
+        <p class="colegiado" data-en="Chartered no. 07395, COIIAOC">Colegiado n.º 07395, COIIAOC</p>
+        <a href="mailto:rmedio@orionipsum.com">rmedio@orionipsum.com</a>
+        <a href="tel:+34646275109">+34 646 275 109</a>
+      </div>
+      <div class="person">
+        <h3>Rafael Bermúdez Morales</h3>
+        <p data-en="Technical Manager. Industrial Engineer">Director técnico. Ingeniero industrial</p>
+        <p class="colegiado" data-en="Chartered no. 07805, COIIAOC">Colegiado n.º 07805, COIIAOC</p>
+        <a href="mailto:rbermudez@orionipsum.com">rbermudez@orionipsum.com</a>
+        <a href="tel:+34676480366">+34 676 480 366</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer band-dark">
+  <div class="wrap footer-row">
+    <p>Orion Ipsum S.L. CIF B42882423. Córdoba</p>
+    <nav aria-label="Legal">
+      <a href="#" data-en="Legal notice">Aviso legal</a>
+      <a href="#" data-en="Privacy">Privacidad</a>
+    </nav>
+    <p class="draft" data-en="Design draft. Copy and images are provisional.">Boceto de diseño. Textos e imágenes provisionales.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
